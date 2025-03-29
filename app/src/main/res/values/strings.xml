@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intro to XML Layouts</string>
+    <string name="dontHaveAccount">Dont have an account yet? <font color='#467699'><b>Sign Up</b></font></string>
+    <string name="forgotPassword">or <font color='#467699' size='20sp'><b>Sign Up</b></font></string>
+
+
+</resources>
