@@ -1,6 +1,6 @@
 # Class Task: Design a login screen for an Android app using XML layouts ✨
 
-This Task is the a Class Task of the **‪Full-Stack Android Training**, it is a Login Screen using XML Layouts
+This Task is a Class Task of the **‪Full-Stack Android Training**, it is a Login Screen using XML Layouts
 
 ## Task Requirements 🎯
 
