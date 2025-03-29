@@ -3,8 +3,8 @@
 This Task is the Fourth Class Task of the **‪Full-Stack Android Training**, it is a Login Screen using XML Layouts
 
 ## Task Requirements 🎯
-**Create a login form with the following elements shown in the image**
-**Implement this layout in three different ways:**
+
+**Create a login form & Implement this layout in three different ways:**
 1. Using LinearLayout
 2. Using RelativeLayout
 3. Using ConstraintLayout
