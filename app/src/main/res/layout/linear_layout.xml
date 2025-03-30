@@ -19,7 +19,6 @@
         android:gravity="center"
         />
 
-
     <Button
         android:id="@+id/GoogleSignUp"
         android:layout_width="match_parent"

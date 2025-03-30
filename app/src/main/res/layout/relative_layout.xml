@@ -7,15 +7,16 @@
     android:background="@color/backgroundColor">
 
     <TextView
-        android:id="@+id/Title"
+        android:id="@+id/log_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
-        android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:text="Log In"
         android:textSize="30sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/GoogleSignUp"
@@ -23,26 +24,24 @@
         android:layout_height="wrap_content"
         android:text="Sign in with your google account"
         android:background="@drawable/round_button_google"
-        android:layout_below="@id/Title"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="15dp"
         android:drawableLeft="@drawable/google"
         android:paddingLeft="15dp"
         android:textAllCaps="false"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:layout_below="@id/log_in"
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/round_button"
-        android:layout_below="@id/GoogleSignUp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
         android:drawableLeft="@drawable/mail"
         android:drawableTint="@color/white"
         android:padding="12dp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_below="@id/GoogleSignUp"
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:id="@+id/password"
@@ -50,14 +49,13 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:background="@drawable/round_button"
-        android:layout_below="@id/username"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
         android:drawableLeft="@drawable/lock"
         android:drawableRight="@drawable/visibility_off"
         android:drawableTint="@color/white"
         android:padding="12dp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_below="@id/username"
+        android:layout_marginBottom="15dp"/>
 
     <Button
         android:id="@+id/login"
@@ -66,40 +64,39 @@
         android:background="@drawable/round_button_login"
         android:textColor="@color/black"
         android:layout_below="@id/password"
-        android:layout_marginTop="20dp"
-        android:text="Login" />
+        android:layout_marginBottom="20dp"
+        android:text="Login"/>
 
     <TextView
         android:id="@+id/ForgotPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Forgot Password?"
-        android:layout_below="@id/login"
-        android:layout_marginTop="15dp"
         android:textColor="@color/blue"
         android:textStyle="bold"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_below="@id/login"
+        android:layout_marginBottom="15dp"/>
 
     <TextView
         android:id="@+id/DontHaveAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/dontHaveAccount"
-        android:layout_below="@id/ForgotPassword"
-        android:layout_marginTop="15dp"
         android:textColor="@color/white"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_below="@id/ForgotPassword"
+        android:layout_marginBottom="15dp"/>
 
     <TextView
         android:id="@+id/Skip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Skip"
-        android:layout_below="@id/DontHaveAccount"
-        android:layout_marginTop="15dp"
         android:textColor="@color/white"
         android:gravity="center"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_below="@id/DontHaveAccount"
+        android:layout_marginBottom="15dp"/>
 
 </RelativeLayout>
-
